@@ -1,0 +1,80 @@
+/* NAV */
+.navbar{
+    background-color: #3e444a;
+}
+.navbar .navbar-brand img{
+    max-width: 120px;
+}
+
+
+/* TICKETS */
+.seccion-tickets{
+    padding: 2rem;
+}
+.seccion-tickets .cards-alineadas{
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.seccion-tickets .cards-alineadas .card{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 8px;
+}
+.seccion-tickets .cards-alineadas .estudiante{
+    border: 1px solid #0487f3;
+}
+.seccion-tickets .cards-alineadas .trainee{
+    border: 1px solid #048872;
+}
+.seccion-tickets .cards-alineadas .junior{
+    border: 1px solid #ffd904;
+}
+.seccion-tickets .form-tickets{
+    max-width: 800px;
+    margin: auto;
+}
+.seccion-tickets .form-tickets .form-control{
+    margin: .5rem 0;
+}
+.seccion-tickets .form-tickets .total p{
+    background-color: #0487f38e;
+    padding: .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #00559b;
+    margin: 1.5rem 0;
+}
+.seccion-tickets form button{
+background-color: rgb(94, 176, 85);
+color: white;
+border: 0;
+display: block;
+width: 100%;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+border-radius: 5px;
+
+}
+
+/* FOOTER  */
+footer{
+    background-color: #204564;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    padding: .5rem;
+    text-align: center;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
